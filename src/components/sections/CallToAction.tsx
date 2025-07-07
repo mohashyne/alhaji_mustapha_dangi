@@ -132,7 +132,7 @@ const CallToAction: React.FC = () => {
             { number: '₦100B+', label: 'Projects Value' },
             { number: '1M+', label: 'Lives Impacted' },
             { number: '50+', label: 'Racing Events' }
-          ].map((stat, index) => (
+          ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-3xl lg:text-4xl font-bold text-royal-gold mb-2">
                 {stat.number}

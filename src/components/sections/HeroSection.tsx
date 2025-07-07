@@ -87,7 +87,7 @@ const HeroSection: React.FC = () => {
             { title: 'Horse Racing', href: '/horse-racing', icon: '🏇' },
             { title: 'Development Projects', href: '/development', icon: '🏗️' },
             { title: 'Cultural Heritage', href: '/cultural', icon: '🏛️' },
-          ].map((item, index) => (
+          ].map((item) => (
             <Link
               key={item.title}
               to={item.href}

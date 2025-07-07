@@ -4,10 +4,7 @@ import { useInView } from 'react-intersection-observer'
 import {
   MapPinIcon,
   CurrencyDollarIcon,
-  CalendarIcon,
-  ChartBarIcon,
   UsersIcon,
-  BuildingOfficeIcon,
   TruckIcon,
   HomeIcon
 } from '@heroicons/react/24/outline'

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { ArrowRightIcon, MapPinIcon, CalendarIcon, CurrencyDollarIcon } from '@heroicons/react/24/outline'
+import { ArrowRightIcon, MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/outline'
 import { featuredProjects } from '../../data/projectImages'
 
 const ProjectsPreview: React.FC = () => {
