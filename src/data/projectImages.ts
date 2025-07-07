@@ -81,6 +81,19 @@ export const projectImages = {
     '/images/projects/FB_IMG_1751818009847.jpg',
     '/images/projects/FB_IMG_1751818017132.jpg',
   ],
+
+  // Horse Racing Federation of Nigeria
+  horseRacing: [
+    '/images/projects/FB_IMG_1751817778177.jpg',
+    '/images/projects/FB_IMG_1751817841010.jpg',
+    '/images/projects/FB_IMG_1751817843649.jpg',
+    '/images/projects/FB_IMG_1751817913092.jpg',
+    '/images/projects/FB_IMG_1751817927517.jpg',
+    '/images/projects/FB_IMG_1751817977731.jpg',
+    '/images/projects/FB_IMG_1751817981997.jpg',
+    '/images/projects/FB_IMG_1751818205901.jpg',
+    '/images/projects/FB_IMG_1751818267130.jpg',
+  ],
   
   // All images for gallery
   all: [
@@ -140,6 +153,12 @@ export const projectImages = {
     '/images/projects/FB_IMG_1751818007373.jpg',
     '/images/projects/FB_IMG_1751818009847.jpg',
     '/images/projects/FB_IMG_1751818017132.jpg',
+    // Horse Racing Federation images
+    '/images/projects/FB_IMG_1751817778177.jpg',
+    '/images/projects/FB_IMG_1751817841010.jpg',
+    '/images/projects/FB_IMG_1751817843649.jpg',
+    '/images/projects/FB_IMG_1751818205901.jpg',
+    '/images/projects/FB_IMG_1751818267130.jpg',
   ]
 }
 

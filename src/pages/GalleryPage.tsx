@@ -21,6 +21,7 @@ const GalleryPage: React.FC = () => {
     { key: 'construction', label: 'Construction Sites', count: projectImages.construction.length },
     { key: 'events', label: 'Events & Ceremonies', count: projectImages.events.length },
     { key: 'community', label: 'Community Engagement', count: projectImages.community.length },
+    { key: 'horseRacing', label: 'Horse Racing Federation of Nigeria', count: projectImages.horseRacing.length },
   ]
 
   const getCurrentImages = () => {
