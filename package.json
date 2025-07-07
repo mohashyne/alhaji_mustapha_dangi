@@ -1,0 +1,40 @@
+{
+  "name": "alhaji-mustapha-dangi-website",
+  "version": "1.0.0",
+  "description": "Official website for Alhaji Mustapha Abubakar Bida - Sarkin Dawakin Nupe",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port $PORT",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "start": "npm run preview"
+  },
+  "keywords": [
+    "Sarkin Dawakin Nupe",
+    "HRFN President",
+    "Niger State Development",
+    "Nigeria Horse Racing",
+    "Nupe Heritage",
+    "Bida Emirate"
+  ],
+  "author": "Crystal Blue Tech Solutions",
+  "license": "MIT",
+  "dependencies": {
+    "@headlessui/react": "^2.2.4",
+    "@heroicons/react": "^2.2.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.21",
+    "framer-motion": "^12.23.0",
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-router-dom": "^7.6.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.2"
+  }
+}
