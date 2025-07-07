@@ -1,14 +1,11 @@
 services:
-  - type: web
+  - type: static
     name: alhaji-mustapha-website
     env: node
-    plan: free
     buildCommand: npm install && npm run build
-    startCommand: npm run preview
-    healthCheckPath: /
+    staticPublishPath: ./dist
     envVars:
       - key: NODE_VERSION
         value: 18.17.0
       - key: NPM_VERSION
         value: 9.6.7
-    staticPublishPath: ./dist
