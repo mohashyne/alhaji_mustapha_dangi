@@ -52,14 +52,10 @@ const Header: React.FC = () => {
               <span className="text-royal-navy font-bold text-xl">AM</span>
             </div>
             <div className="hidden sm:block">
-              <h1 className={`text-xl font-bold transition-colors duration-200 ${
-                isScrolled ? 'text-royal-navy' : 'text-white text-shadow'
-              }`}>
+              <h1 className="text-xl font-bold text-royal-gold transition-colors duration-200">
                 Alhaji Mustapha
               </h1>
-              <p className={`text-sm transition-colors duration-200 ${
-                isScrolled ? 'text-gray-700' : 'text-gray-200 text-shadow'
-              }`}>
+              <p className="text-sm text-royal-gold transition-colors duration-200">
                 Sarkin Dawakin Nupe
               </p>
             </div>
