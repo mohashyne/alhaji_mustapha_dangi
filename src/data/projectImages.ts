@@ -147,18 +147,18 @@ export const projectImages = {
 export const featuredProjects = [
   {
     id: 1,
-    title: '82km Minna-Katayeregi-Bida Road',
-    description: 'A transformative infrastructure project connecting major cities and boosting economic activities across Niger State.',
-    status: 'In Progress',
-    budget: '₦50 Billion',
+    title: 'Infrastructure Development Projects',
+    description: 'Multiple infrastructure projects including bridges, roads, and public facilities across Niger State.',
+    status: 'Ongoing',
+    budget: '₦75 Billion',
     location: 'Niger State',
-    completion: '75%',
-    images: projectImages.roadProjects.slice(0, 5),
-    mainImage: projectImages.roadProjects[0],
+    completion: '60%',
+    images: projectImages.construction.slice(0, 5),
+    mainImage: projectImages.construction[0],
     impact: {
-      economic: 'Boosting trade and commerce',
-      social: 'Connecting communities',
-      infrastructure: 'Modern road network'
+      economic: 'Economic growth catalyst',
+      social: 'Improved quality of life',
+      infrastructure: 'Modern facilities'
     }
   },
   {
@@ -179,18 +179,18 @@ export const featuredProjects = [
   },
   {
     id: 3,
-    title: 'Infrastructure Development Projects',
-    description: 'Multiple infrastructure projects including bridges, roads, and public facilities across Niger State.',
-    status: 'Ongoing',
-    budget: '₦75 Billion',
+    title: '82km Minna-Katayeregi-Bida Road',
+    description: 'A transformative infrastructure project connecting major cities and boosting economic activities across Niger State.',
+    status: 'In Progress',
+    budget: '₦50 Billion',
     location: 'Niger State',
-    completion: '60%',
-    images: projectImages.construction.slice(0, 5),
-    mainImage: projectImages.construction[0],
+    completion: '75%',
+    images: projectImages.roadProjects.slice(0, 5),
+    mainImage: projectImages.roadProjects[0],
     impact: {
-      economic: 'Economic growth catalyst',
-      social: 'Improved quality of life',
-      infrastructure: 'Modern facilities'
+      economic: 'Boosting trade and commerce',
+      social: 'Connecting communities',
+      infrastructure: 'Modern road network'
     }
   }
 ]
