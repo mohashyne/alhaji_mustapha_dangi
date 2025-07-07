@@ -179,7 +179,7 @@ export const featuredProjects = [
   },
   {
     id: 3,
-    title: '82km Minna-Katayeregi-Bida Road',
+    title: 'construction',
     description: 'A transformative infrastructure project connecting major cities and boosting economic activities across Niger State.',
     status: 'In Progress',
     budget: '₦50 Billion',
